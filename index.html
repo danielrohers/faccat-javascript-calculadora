@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Bonita e Inteligente</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="calc">
+        <div class="calc__result">
+            <span></span>
+        </div>
+        <div class="flex">
+            <button onclick="addUm();" class="calc__btn">1</button>
+            <button onclick="addDois();" class="calc__btn">2</button>
+            <button onclick="addTres();" class="calc__btn">3</button>
+        </div>
+
+        <div class="flex">
+            <button onclick="addQuatro();" class="calc__btn">4</button>
+            <button onclick="addCinco();" class="calc__btn">5</button>
+            <button onclick="addSeis();" class="calc__btn">6</button>
+        </div>
+
+        <div class="flex">
+            <button onclick="addSete();" class="calc__btn">7</button>
+            <button onclick="addOito();" class="calc__btn">8</button>
+            <button onclick="addNove();" class="calc__btn">9</button>
+        </div>
+
+        <div class="flex">
+            <button onclick="addZero();" class="calc__btn">0</button>
+        </div>
+
+        <div class="flex">
+            <button onclick="somar();" class="calc__btn calc__btn--operator">+</button>
+            <button onclick="subtrair();" class="calc__btn calc__btn--operator">-</button>
+            <button onclick="multiplicar();" class="calc__btn calc__btn--operator">*</button>
+            <button onclick="dividir();" class="calc__btn calc__btn--operator">/</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
